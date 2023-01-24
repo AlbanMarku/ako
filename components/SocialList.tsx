@@ -1,38 +1,15 @@
 import { NextPage } from 'next';
 import Social from './Social';
 import Box from '@mui/material/Box';
+import myData from "../data/personalData.json";
 
 type SocialList = {
   name: string;
   link: string;
 };
 
-const socials: SocialList[] = [
-  {
-    name: 'github',
-    link: 'https://github.com/reny-pacheco',
-  },
-  {
-    name: 'linkedIn',
-    link: 'https://linkedin.com/in/reny-pacheco',
-  },
-  {
-    name: 'facebook',
-    link: 'https://web.facebook.com/reny.vargas.pacheco.08',
-  },
-  {
-    name: 'youtube',
-    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-  },
-  {
-    name: 'twitter',
-    link: 'https://twitter.com/__reny',
-  },
-  {
-    name: 'instagram',
-    link: 'https://www.instagram.com/pacheco_reny',
-  },
-];
+//Read json socials data. Still following SocialList type.
+const socials: SocialList[] = myData.socials;
 
 const Socials: NextPage = () => {
   return (

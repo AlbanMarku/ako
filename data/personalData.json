@@ -20,5 +20,31 @@
     {
         "name": "docker"
     }
+],
+"socials": [
+    {
+        "name": "github",
+        "link": "https://github.com/reny-pacheco"
+      },
+      {
+        "name": "linkedIn",
+        "link": "https://linkedin.com/in/reny-pacheco"
+      },
+      {
+        "name": "facebook",
+        "link": "https://web.facebook.com/reny.vargas.pacheco.08"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/__reny"
+      },
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/pacheco_reny"
+      }
 ]
 }
