@@ -23,7 +23,7 @@ const Footer = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <FooterText text="Develop with" />
+        <FooterText text="Developed with" />
         <FavoriteIcon
           sx={{ fontSize: 10, marginBottom: '1px', marginX: '3px' }}
         />
