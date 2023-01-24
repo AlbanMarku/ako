@@ -24,7 +24,9 @@ const Footer = () => {
         justifyContent="center"
       >
         <FooterText text="Develop with" />
-        <FavoriteIcon sx={{ fontSize: 10, marginTop: '2px', marginX: '3px' }} />
+        <FavoriteIcon
+          sx={{ fontSize: 10, marginBottom: '1px', marginX: '3px' }}
+        />
         <FooterText text="by Reny Pacheco" />
       </Box>
     </>
