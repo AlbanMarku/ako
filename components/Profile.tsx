@@ -29,7 +29,7 @@ const Profile = () => {
         Reny Pacheco
       </Typography>
       <Typography textAlign="center" mt={2} variant="body1" color="#189AB4">
-        Software Engineer @ Test Company
+        Software Engineer @ Stratpoint
       </Typography>
     </>
   );
