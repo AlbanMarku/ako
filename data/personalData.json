@@ -1,0 +1,24 @@
+{
+    "tags": [{
+        "name": "javascript"
+    },
+    {
+        "name": "python"
+    },
+    {
+        "name": "react"
+    },
+    {
+        "name": "node"
+    },
+    {
+        "name": "material ui"
+    },
+    {
+        "name": "express"
+    },
+    {
+        "name": "docker"
+    }
+]
+}
