@@ -1,26 +1,6 @@
 {
-    "tags": [{
-        "name": "javascript"
-    },
-    {
-        "name": "python"
-    },
-    {
-        "name": "react"
-    },
-    {
-        "name": "node"
-    },
-    {
-        "name": "material ui"
-    },
-    {
-        "name": "express"
-    },
-    {
-        "name": "docker"
-    }
-],
+"tags": ["javascript", "python", "react", "node", "material ui", "express", "docker"],
+
 "socials": [
     {
         "name": "github",

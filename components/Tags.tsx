@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import myTags from "../data/personalData.json";
+import myData from "../data/personalData.json";
 
 type ITag = {
   tagName: string;
@@ -31,7 +31,7 @@ const Tag = ({ tagName }: ITag) => {
 
 const Tags = () => {
   //Read the tags array in json file.
-  const tags = myTags.tags;
+  const tags = myData.tags;
   return (
     <Box
       mt={2}
@@ -44,7 +44,7 @@ const Tags = () => {
       width="100%"
     >
       {tags.map((tag) => (
-        <Tag key={tag.name} tagName={tag.name} />
+        <Tag key={tag} tagName={tag} />
       ))}
     </Box>
   );
